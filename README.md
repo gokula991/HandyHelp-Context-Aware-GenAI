@@ -49,11 +49,11 @@ Connect the Phone Gateway number to your Dialogflow CX agent.
 Test your agent in Dialogflow CX simulator for chat and voice.
 Customize FAQs, playbooks, and retrieval sources as needed.
 Extend the OpenAPI spec to add or modify endpoints for your agent interactions.
-Screenshot
+
 
 Here’s a snapshot of the agent’s flow and GenAI integration in Dialogflow CX:
 
-(Attach your screenshot here)
+
 
 Contribution
 
@@ -65,9 +65,7 @@ Feel free to reach out for collaborations, discussions, or inquiries:
 
 Email: gokulachandra119@gmail.com
 LinkedIn: https://linkedin.com/in/gokulachandra
-License
 
-(Add your license info here, e.g., MIT License)
 
 Tags
 
