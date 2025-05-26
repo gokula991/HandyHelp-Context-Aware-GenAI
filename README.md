@@ -1,6 +1,7 @@
 HandyHelp — Context-Aware Generative AI Support Agent
 
-https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-3c18-622f-831d-4dd06979e1c9/raw?se=2025-05-27T00%3A25%3A51Z&sp=r&sv=2024-08-04&sr=b&scid=81ebc307-35a7-508f-a8b1-a4aff07c8536&skoid=bbd22fc4-f881-4ea4-b2f3-c12033cf6a8b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-26T23%3A15%3A09Z&ske=2025-05-27T23%3A15%3A09Z&sks=b&skv=2024-08-04&sig=UTKTfJj/4vazHdmHRp0KwI1q9Fknph2hl0j8KCHQ3%2BI%3D![image](https://github.com/user-attachments/assets/13c18573-1543-47c3-b027-f00b902e7dea)
+![Description of image](https://github.com/gokula991/HandyHelp-Context-Aware-GenAI/blob/main/Cover_Pic_GenAi_agent.png?raw=true)
+
 
 
 Welcome to HandyHelp, a conversational AI support agent designed to deliver relevant, context-aware assistance by combining Generative AI, custom retrieval logic, and smart fallback strategies — all orchestrated within the Google Conversational Agent ecosystem.
