@@ -53,11 +53,7 @@ Extend the OpenAPI spec to add or modify endpoints for your agent interactions.
 
 Here’s a snapshot of the agent’s flow and GenAI integration in Dialogflow CX:
 
-
-
-Contribution
-
-Contributions, issues, and feedback are welcome! Please open issues or pull requests for enhancements, bug fixes, or feature requests.
+Open For Contributions and more than welcome.
 
 Contact & Connect
 
