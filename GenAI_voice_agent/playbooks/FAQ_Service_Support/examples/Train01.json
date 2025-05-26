@@ -1,0 +1,38 @@
+{
+  "name": "1c4d70d2-778b-4969-b76e-489d4f2259c6",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "I understand. Can you tell me what kind of Leak Detector you have and what issues you're experiencing?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Yes, how do I reset the Thermostat Controller?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I can help with that! Could you please tell me the make and model of your Thermostat Controller?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "No, am good that’s all, thanks."
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "User asked about supported services (Leak Detector and Thermostat Controller). Provided relevant responses and follow-up questions. Upon confirmation that no further help was needed, session ended with a polite thank-you message: “Thank you for reaching out. Have a great day!”",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "Customer successfully resolved their issue.",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Train01",
+  "retrievalStrategy": "DEFAULT",
+  "description": "training based on sample 01",
+  "tokenCount": 210,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

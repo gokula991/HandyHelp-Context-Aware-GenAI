@@ -1,0 +1,68 @@
+{
+  "name": "c398d008-864b-4fa5-9ffc-3a7c9710e77c",
+  "actions": [ {
+    "toolUse": {
+      "tool": "LLM_semantic_search",
+      "action": "LLM_semantic_search",
+      "inputActionParameters": {
+        "requestBody": {
+          "fallback": "I'm sorry, I don't have information about appliance cleaning services.",
+          "query": "Do you offer appliance cleaning services?"
+        }
+      },
+      "outputActionParameters": {
+        "200": "I'm sorry, I don't have information about appliance cleaning services."
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I'm sorry, I don't have information about appliance cleaning services."
+    }
+  }, {
+    "userUtterance": {
+      "text": "Okay, I also need help installing a Smart Oven."
+    }
+  }, {
+    "toolUse": {
+      "tool": "LLM_semantic_search",
+      "action": "LLM_semantic_search",
+      "inputActionParameters": {
+        "requestBody": {
+          "fallback": "I'm sorry, I don't have information about appliance installation services.",
+          "query": "Do you offer appliance installation services?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "I'm sorry, I don't have information about appliance installation services."
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I'm sorry, I don't have information about appliance installation services."
+    }
+  }, {
+    "userUtterance": {
+      "text": "ok "
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "User asked for assistance not covered by FAQ. Escalation to support is initiated.",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "Escalated customer request for appliance cleaning and installation services. and greet Thank you support team will reach back shortly",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Train01",
+  "retrievalStrategy": "DEFAULT",
+  "description": "training based on sample 01",
+  "tokenCount": 416,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

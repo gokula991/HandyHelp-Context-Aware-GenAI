@@ -1,0 +1,23 @@
+{
+  "name": "4e622245-6940-4ca6-86af-94df000e17f7",
+  "displayName": "escalate_to_support",
+  "goal": "Greet the user, introduce yourself as a customer support agent, acknowledge the user’s presence, and inform them that their question has been noted and a human agent will reach out soon.",
+  "tokenCount": 148,
+  "referencedFlows": [ "EndFlow" ],
+  "referencedTools": [ "search_web", "web_search_2" ],
+  "instruction": {
+    "steps": [ {
+      "text": "Send: \"Hello! I am a customer support agent here to assist you.\""
+    }, {
+      "text": "Wait for user input and save it as user_query"
+    }, {
+      "text": "Send: \"Thank you for reaching out. I have noted your question, and a member of our human support team will contact you shortly. Have great rest of your day\""
+    }, {
+      "text": "Trigger ${FLOW:EndFlow} to politely end the session."
+    } ]
+  },
+  "playbookType": "TASK",
+  "codeBlock": {
+  
+  }
+}

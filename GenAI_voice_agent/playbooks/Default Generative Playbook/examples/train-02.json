@@ -1,0 +1,59 @@
+{
+  "name": "14651b07-ba59-4296-909d-cdb93333ed81",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "\"Hi there! I'm Gokula, your virtual assistant from HandyHelp. I'm here to help with product and service support. How can I assist you today?\""
+    }
+  }, {
+    "userUtterance": {
+      "text": "i have some issue about repair and installation."
+    }
+  }, {
+    "agentUtterance": {
+      "text": "\"I can definitely help with that!  Could you tell me a little more about the issue you're having?  For example, is it related to the installation of a HandyHelp product, or are you having trouble with a repair service?\""
+    }
+  }, {
+    "userUtterance": {
+      "text": "yes "
+    }
+  }, {
+    "agentUtterance": {
+      "text": "\"Okay, I understand.  Could you tell me which product or service you're having trouble with?  For example, are you having trouble installing the Smart Door Lock, or are you having an issue with the Emergency Repairs service?\""
+    }
+  }, {
+    "userUtterance": {
+      "text": "door lock"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "\"Okay, I understand.  Are you having trouble with the installation of the Smart Door Lock, or are you having an issue with a repair related to the Smart Door Lock?\""
+    }
+  }, {
+    "userUtterance": {
+      "text": "yes it a bit complex "
+    }
+  }, {
+    "agentUtterance": {
+      "text": "\"I understand.  It sounds like you might need some additional help from our expert technicians.  Would you like me to connect you with our customer support team for further assistance?\""
+    }
+  }, {
+    "userUtterance": {
+      "text": "yes"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "\"Okay, I'm connecting you with our customer support team now.  They'll be able to provide you with the best possible assistance.  Please be ready to provide them with details about your issue.  They'll be with you shortly.\""
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "Customer was told that the issue has been escalated to handyhelp support team as the issue is too complex in this case or something similar hence he was told to wait for call shortly after this call.",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "train-02",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 476,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

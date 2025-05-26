@@ -1,0 +1,43 @@
+openapi: 3.0.0
+info:
+  title: Google Search via Custom Search API
+  version: 1.0.0
+paths:
+  /:
+    post:
+      summary: Perform Google Search
+      operationId: google_search
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - query
+              properties:
+                query:
+                  type: string
+                  description: The search query string.
+      responses:
+        '200':
+          description: Successful response with top search result.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  title:
+                    type: string
+                  link:
+                    type: string
+                  snippet:
+                    type: string
+        '400':
+          description: Missing query or malformed request.
+        '404':
+          description: No results found.
+        '500':
+          description: Internal server error or search failure.
+servers:
+  - url: https://<YOUR-DEPLOYED-ENDPOINT>

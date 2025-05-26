@@ -1,0 +1,46 @@
+{
+  "name": "b523ab21-da25-4d26-aa37-369e06dc3787",
+  "displayName": "LLM_semantic_search",
+  "description": "This datastore contains categorized frequently asked questions (FAQs) about HandyHelp’s products and services. It includes precise answers related to three core smart home devices (Smart Door Lock, Leak Detector, Thermostat Controller) and three key services (Home Installation, Emergency Repairs, Device Troubleshooting). The content is optimized for retrieval through semantic search to support virtual agents in providing quick, relevant responses.",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/620687189244/locations/global/collections/default_collection/dataStores/handyhelp_1748108661149",
+      "documentProcessingMode": "DOCUMENTS",
+      "engineType": "CHAT_ENGINE",
+      "connectorConfig": {
+      
+      },
+      "createTime": {
+        "seconds": 1748108666,
+        "nanos": 454451000
+      },
+      "displayName": "HandyHelp",
+      "dialogflowAddTime": {
+        "seconds": 1748108702,
+        "nanos": 17000000
+      }
+    } ],
+    "models": {
+      "summarizationModel": {
+      
+      },
+      "rewriterModel": {
+      
+      }
+    },
+    "fallbackPrompt": {
+      "company": "FlowGrub"
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    },
+    "voiceModeSettings": {
+    
+    }
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

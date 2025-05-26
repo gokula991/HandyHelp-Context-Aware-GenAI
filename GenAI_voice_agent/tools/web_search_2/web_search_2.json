@@ -1,0 +1,16 @@
+{
+  "name": "f75d022f-b91e-4cad-ae57-d9cf2ce172e9",
+  "displayName": "web_search_2",
+  "description": "Searches the web using Google Custom Search API. Returns titles, snippets, and links for search results.",
+  "openApiSpec": {
+    "authentication": {
+      "apiKeyConfig": {
+        "keyName": "key",
+        "apiKey": "YOUR_API_KEY",
+        "requestLocation": "QUERY_STRING"
+      }
+    },
+    "ignoreUnknownFields": true
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "96f103cd-6689-4a5a-9bdd-71de40e959b7",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "\"Hi there! I'm Gokula, your virtual assistant from HandyHelp. I'm here to help with product and service support. How can I assist you today?\""
+    }
+  }, {
+    "userUtterance": {
+      "text": "what you can help?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "\"I can help with questions about our products, like the Smart Door Lock, Leak Detector, and Thermostat Controller. I can also help with our services, like Home Installation, Emergency Repairs, and Device Troubleshooting.  What can I help you with today?\""
+    }
+  }, {
+    "userUtterance": {
+      "text": "but no am good "
+    }
+  }, {
+    "agentUtterance": {
+      "text": "\"Okay, great! Is there anything else I can help you with today?\""
+    }
+  }, {
+    "userUtterance": {
+      "text": "nothing am good"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "\"Okay, great! Have a wonderful day!\""
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "Greet customer as all his questions were answered",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "train-03",
+  "retrievalStrategy": "DEFAULT",
+  "tokenCount": 247,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

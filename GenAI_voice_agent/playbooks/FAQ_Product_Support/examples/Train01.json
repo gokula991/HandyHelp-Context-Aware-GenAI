@@ -1,0 +1,113 @@
+{
+  "name": "b8c3abdf-ceff-4f57-bd37-02f8a6dc5586",
+  "actions": [ {
+    "toolUse": {
+      "tool": "LLM_semantic_search",
+      "action": "LLM_semantic_search",
+      "inputActionParameters": {
+        "requestBody": {
+          "fallback": "I'm sorry, I don't have information on how to set up the Smart Door Lock. Please contact our customer support team for assistance.",
+          "query": "How do I set up the Smart Door Lock?"
+        }
+      },
+      "outputActionParameters": {
+        "200": "I'm sorry, I don't have information on how to set up the Smart Door Lock. Please contact our customer support team for assistance."
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I'm sorry, I don't have information on how to set up the Smart Door Lock. Please contact our customer support team for assistance."
+    }
+  }, {
+    "userUtterance": {
+      "text": "\"What is the battery life of the Leak Detector?\""
+    }
+  }, {
+    "toolUse": {
+      "tool": "LLM_semantic_search",
+      "action": "LLM_semantic_search",
+      "inputActionParameters": {
+        "requestBody": {
+          "fallback": "I'm sorry, I don't have information on the battery life of the Leak Detector. Please contact our customer support team for assistance.",
+          "query": "What is the battery life of the Leak Detector?"
+        }
+      },
+      "outputActionParameters": {
+        "200": "I'm sorry, I don't have information on the battery life of the Leak Detector. Please contact our customer support team for assistance."
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I'm sorry, I don't have information on the battery life of the Leak Detector. Please contact our customer support team for assistance."
+    }
+  }, {
+    "userUtterance": {
+      "text": "\"Can the Thermostat Controller be controlled via app?\""
+    }
+  }, {
+    "toolUse": {
+      "tool": "LLM_semantic_search",
+      "action": "LLM_semantic_search",
+      "inputActionParameters": {
+        "requestBody": {
+          "fallback": "I'm sorry, I don't have information on whether the Thermostat Controller can be controlled via app. Please contact our customer support team for assistance.",
+          "query": "Can the Thermostat Controller be controlled via app?"
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "answer": "Yes, the Thermostat Controller can be controlled via app. You can browse available suppliers, select items and quantities, add to cart, and checkout. You'll see real-time availability and estimated delivery times."
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Yes, the Thermostat Controller can be controlled via app. You can browse available suppliers, select items and quantities, add to cart, and checkout. You'll see real-time availability and estimated delivery times."
+    }
+  }, {
+    "userUtterance": {
+      "text": "\"How do I reset my Thermostat Controller?\""
+    }
+  }, {
+    "toolUse": {
+      "tool": "LLM_semantic_search",
+      "action": "LLM_semantic_search",
+      "inputActionParameters": {
+        "requestBody": {
+          "fallback": "I'm sorry, I don't have information on how to reset the Thermostat Controller. Please contact our customer support team for assistance.",
+          "query": "How do I reset my Thermostat Controller?"
+        }
+      },
+      "outputActionParameters": {
+        "200": "I'm sorry, I don't have information on how to reset the Thermostat Controller. Please contact our customer support team for assistance."
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I'm sorry, I don't have information on how to reset the Thermostat Controller. Please contact our customer support team for assistance."
+    }
+  }, {
+    "userUtterance": {
+      "text": "Do you sell security cameras?"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "Received user query about a product.  \nChecked if the product is among the supported list: Smart Door Lock, Leak Detector, Thermostat Controller.  \nIf matched, retrieved and provided relevant FAQ answer.  \nIf not matched or query unclear, escalated to human support.  \nAfter providing the answer or escalation, asked the user if they needed any further assistance.  \nIf no further issues, ended the session politely.  \nLogged the interaction and session details.\n",
+    "actionParameters": {
+    
+    }
+  },
+  "playbookOutput": {
+    "executionSummary": "After providing the answer or escalation, asked the user if they needed any further assistance.  \nIf no further issues, ended the session politely.  \nLogged the interaction and session details.\n",
+    "state": "OK",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Train01",
+  "retrievalStrategy": "DEFAULT",
+  "description": "Training based on sample 01",
+  "tokenCount": 1071,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

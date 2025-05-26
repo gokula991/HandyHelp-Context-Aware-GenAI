@@ -1,0 +1,44 @@
+{
+  "name": "a45c2d9b-0151-40e0-bc82-b804439ab99b",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "\"Hi there! I can definitely help with that.  Are you having trouble with the installation process, or do you have a question about the Smart Door Lock itself?\""
+    }
+  }, {
+    "userUtterance": {
+      "text": "\"I need information about your repair services.\""
+    }
+  }, {
+    "agentUtterance": {
+      "text": "\"Okay, I understand. HandyHelp offers a variety of repair services.  Could you tell me a little more about what you need repaired?  For example, is it a problem with the Smart Door Lock itself, or something else related to your home?\""
+    }
+  }, {
+    "userUtterance": {
+      "text": "\"What products do you support at HandyHelp?\""
+    }
+  }, {
+    "agentUtterance": {
+      "text": "\"HandyHelp offers support for a range of smart home products.  Our most popular products include the Smart Door Lock, the Leak Detector, and the Thermostat Controller.  Do you have any of these products, or are you interested in learning more about them?\""
+    }
+  }, {
+    "userUtterance": {
+      "text": "\"I have a problem not related to your products. Can you help?\""
+    }
+  }, {
+    "agentUtterance": {
+      "text": "\"I understand. While I'm happy to help, my expertise is primarily focused on HandyHelp products and services.  For issues unrelated to our products, I recommend reaching out to our customer support team directly.  Would you like me to connect you with them?\""
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "User greeted and query received. Based on the request, conversation was routed to either FAQ_Product_Support or FAQ_Service_Support.  \nIf the question matched a supported product or service, relevant FAQ answer was provided.  \nIf the request was outside scope or unresolved, conversation was escalated to human support.  \nConversation ended politely after providing answer or escalation confirmation.",
+    "actionParameters": {
+    
+    }
+  },
+  "displayName": "Train01",
+  "retrievalStrategy": "DEFAULT",
+  "description": "Training it on sample 1",
+  "tokenCount": 420,
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}
