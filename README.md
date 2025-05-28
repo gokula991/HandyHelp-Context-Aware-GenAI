@@ -28,7 +28,7 @@ Setup & Usage Instructions
 Follow these steps to set up and run the HandyHelp agent:
 
 1. Clone the repository
-git clone https://github.com/gokula991/handyhelp.git
+git clone ---repo--name--
 cd handyhelp
 2. Configure Google Cloud APIs
 Enable Dialogflow CX in your Google Cloud project.
